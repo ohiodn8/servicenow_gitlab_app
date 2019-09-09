@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Gitlab User" max_length="40" name="x_396036_my_sample_gitlab_user" type="collection">
+        <element label="email" max_length="40" name="email" type="string"/>
+        <element label="name" max_length="40" name="name" type="string"/>
+        <element label="password" max_length="40" name="password" type="string"/>
+        <element label="username" max_length="40" name="username" type="string"/>
+    </element>
+</database>

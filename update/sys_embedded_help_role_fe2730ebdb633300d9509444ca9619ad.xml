@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_396036_my_sample.gitlab_spoke_user" name="x_396036_my_sample.gitlab_spoke_user">3e2730ebdb633300d9509444ca9619ab</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-09-03 15:26:49</sys_created_on>
+        <sys_id>fe2730ebdb633300d9509444ca9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>3e2730ebdb633300d9509444ca9619ab</sys_name>
+        <sys_package display_value="My Sample App" source="x_396036_my_sample">c9b6f8abdb633300d9509444ca961930</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="My Sample App">c9b6f8abdb633300d9509444ca961930</sys_scope>
+        <sys_update_name>sys_embedded_help_role_fe2730ebdb633300d9509444ca9619ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-03 15:26:49</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
