@@ -4,5 +4,11 @@
         <element label="name" max_length="40" name="name" type="string"/>
         <element label="password" max_length="40" name="password" type="string"/>
         <element label="username" max_length="40" name="username" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="in progress" label="process" max_length="40" name="u_string_process" type="string">
+            <choice>
+                <element inactive_on_update="false" label="In Progress" sequence="0" value="in progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="1" value="completed"/>
+            </choice>
+        </element>
     </element>
 </database>

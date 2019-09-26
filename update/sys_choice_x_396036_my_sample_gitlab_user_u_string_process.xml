@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_string_process" table="x_396036_my_sample_gitlab_user" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_process</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>In Progress</label>
+            <language>en</language>
+            <name>x_396036_my_sample_gitlab_user</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-24 15:56:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e47811adb400010d9509444ca961994</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-24 15:56:16</sys_updated_on>
+            <value>in progress</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_string_process</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completed</label>
+            <language>en</language>
+            <name>x_396036_my_sample_gitlab_user</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-24 15:56:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7e47811adb400010d9509444ca961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-24 15:56:16</sys_updated_on>
+            <value>completed</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_string_process</element>
+            <name>x_396036_my_sample_gitlab_user</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-09-24 15:56:16</sys_created_on>
+            <sys_id>7647811adb400010d9509444ca961995</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_string_process</sys_name>
+            <sys_package display_value="My Sample App" source="x_396036_my_sample">c9b6f8abdb633300d9509444ca961930</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="My Sample App">c9b6f8abdb633300d9509444ca961930</sys_scope>
+            <sys_update_name>sys_choice_x_396036_my_sample_gitlab_user_u_string_process</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-09-24 15:56:16</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

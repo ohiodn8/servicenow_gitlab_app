@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
     <sys_rest_message_fn action="INSERT_OR_UPDATE">
-        <authentication_type>no_authentication</authentication_type>
+        <authentication_type>inherit_from_parent</authentication_type>
         <basic_auth_password/>
         <basic_auth_profile/>
         <basic_auth_user/>
         <content/>
-        <function_name>GetSingleGitlabUser</function_name>
-        <http_method>get</http_method>
+        <function_name>PostSingleProject</function_name>
+        <http_method>post</http_method>
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>
-        <qualified_name>GitlabUserAPI [ GetSingleGitlabUser ]</qualified_name>
-        <rest_endpoint>http://34.210.67.9:3500/api/v4/users/${id}</rest_endpoint>
-        <rest_message display_value="GitlabUserAPI">7e9f77d9db33f300d9509444ca9619c5</rest_message>
+        <qualified_name>gitlabProjectAPI [ PostSingleProject ]</qualified_name>
+        <rest_endpoint>http://34.210.67.9:3500/api/v4/projects/user/${user_id}</rest_endpoint>
+        <rest_message display_value="gitlabProjectAPI">7f06d00edb0c0010d9509444ca9619ec</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-09 16:37:10</sys_created_on>
-        <sys_id>fd904ca9db33f300d9509444ca961924</sys_id>
-        <sys_mod_count>6</sys_mod_count>
-        <sys_name>GetSingleGitlabUser</sys_name>
+        <sys_created_on>2019-09-23 17:51:27</sys_created_on>
+        <sys_id>4417d44edb0c0010d9509444ca9619c9</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>PostSingleProject</sys_name>
         <sys_package display_value="My Sample App" source="x_396036_my_sample">c9b6f8abdb633300d9509444ca961930</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Sample App">c9b6f8abdb633300d9509444ca961930</sys_scope>
-        <sys_update_name>sys_rest_message_fn_fd904ca9db33f300d9509444ca961924</sys_update_name>
+        <sys_update_name>sys_rest_message_fn_4417d44edb0c0010d9509444ca9619c9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-23 17:35:32</sys_updated_on>
+        <sys_updated_on>2019-09-25 15:58:17</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>
         <use_mutual_auth>false</use_mutual_auth>

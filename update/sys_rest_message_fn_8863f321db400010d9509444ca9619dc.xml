@@ -2,29 +2,29 @@
     <sys_rest_message_fn action="INSERT_OR_UPDATE">
         <authentication_type>no_authentication</authentication_type>
         <basic_auth_password/>
-        <basic_auth_profile display_value="Odion AWS">44de4e69dbc44010d9509444ca9619ce</basic_auth_profile>
+        <basic_auth_profile/>
         <basic_auth_user/>
         <content/>
-        <function_name>GetAllGitlabUsers</function_name>
-        <http_method>get</http_method>
+        <function_name>PostSingleUser</function_name>
+        <http_method>post</http_method>
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>
-        <qualified_name>GitlabUserAPI [ GetAllGitlabUsers ]</qualified_name>
+        <qualified_name>GitlabUserAPI [ PostSingleUser ]</qualified_name>
         <rest_endpoint>http://34.210.67.9:3500/api/v4/users</rest_endpoint>
         <rest_message display_value="GitlabUserAPI">7e9f77d9db33f300d9509444ca9619c5</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-09-09 16:34:44</sys_created_on>
-        <sys_id>4c400869db33f300d9509444ca9619f1</sys_id>
-        <sys_mod_count>8</sys_mod_count>
-        <sys_name>GetAllGitlabUsers</sys_name>
+        <sys_created_on>2019-09-22 20:36:02</sys_created_on>
+        <sys_id>8863f321db400010d9509444ca9619dc</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>PostSingleUser</sys_name>
         <sys_package display_value="My Sample App" source="x_396036_my_sample">c9b6f8abdb633300d9509444ca961930</sys_package>
         <sys_policy/>
         <sys_scope display_value="My Sample App">c9b6f8abdb633300d9509444ca961930</sys_scope>
-        <sys_update_name>sys_rest_message_fn_4c400869db33f300d9509444ca9619f1</sys_update_name>
+        <sys_update_name>sys_rest_message_fn_8863f321db400010d9509444ca9619dc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-09-23 15:23:55</sys_updated_on>
+        <sys_updated_on>2019-09-23 17:26:22</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>
         <use_mutual_auth>false</use_mutual_auth>

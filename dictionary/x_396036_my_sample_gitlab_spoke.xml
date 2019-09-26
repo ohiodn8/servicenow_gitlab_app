@@ -1,39 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="gitlab spoke" max_length="40" name="x_396036_my_sample_gitlab_spoke" type="collection">
-        <element label="Generate script" max_length="65536" name="u_html_script1" type="html"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="visibility 1" label="visibility" max_length="40" name="u_string_3" type="string">
+        <element attributes="edge_encryption_enabled=true" label="Description" mandatory="true" max_length="300" name="description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" mandatory="true" max_length="40" name="name" type="string"/>
+        <element label="user_id" max_length="40" name="user_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="in progress" label="process" max_length="40" name="u_string_process" type="string">
             <choice>
-                <element inactive_on_update="false" label="Choice 1" sequence="0" value="visibility 1"/>
-                <element inactive_on_update="false" label="Choice 2" sequence="1" value="visibility 2"/>
-                <element inactive_on_update="false" label="Choice 3" sequence="2" value="visibility 3"/>
+                <element inactive_on_update="false" label="In Progress" sequence="0" value="in progress"/>
+                <element inactive_on_update="false" label="Completed" sequence="1" value="Completed"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" default="[More Information can go here]" label="Note" max_length="600" name="u_string_9" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Description" max_length="400" name="u_string_description" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="u_string_email" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="Development" label="environment" mandatory="true" max_length="40" name="u_string_env1" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="private" label="visibility" mandatory="true" max_length="40" name="visibility" type="string">
             <choice>
-                <element inactive="true" inactive_on_update="true" label="-TBDVALUE-Production" sequence="0"/>
-                <element inactive_on_update="false" label="Development" sequence="0" value="Development"/>
-                <element inactive_on_update="false" label="Test" sequence="1" value="Test"/>
-                <element inactive_on_update="false" label="Staging" sequence="2" value="Staging"/>
-                <element inactive_on_update="false" label="Production" sequence="3" value="Production"/>
-            </choice>
-        </element>
-        <element attributes="edge_encryption_enabled=true" default="[User Name should be here]" label="Name" mandatory="true" max_length="40" name="u_string_name1" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="[Enter the name of your Gitlab project]" label="project" mandatory="true" max_length="40" name="u_string_project1" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_string_project1" dependent_on_field="u_string_project1" label="Role" max_length="40" name="u_string_role" type="string" use_dependent_field="true">
-            <choice>
-                <element inactive_on_update="false" label="Role 1" sequence="0" value="role 1"/>
-                <element inactive_on_update="false" label="Role 2" sequence="1" value="role 2"/>
-                <element inactive_on_update="false" label="Role 3" sequence="2" value="role 3"/>
-            </choice>
-        </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Role" max_length="40" name="u_string_role11" type="string">
-            <choice>
-                <element inactive_on_update="false" label="Admin" sequence="0" value="admin"/>
-                <element inactive_on_update="false" label="Supervisor" sequence="1" value="supervisor"/>
-                <element inactive_on_update="false" label="Creator" sequence="2" value="creator"/>
+                <element inactive_on_update="false" label="Private" sequence="0" value="private"/>
+                <element inactive_on_update="false" label="Internal" sequence="1" value="internal"/>
+                <element inactive_on_update="false" label="Public" sequence="2" value="public"/>
             </choice>
         </element>
     </element>
