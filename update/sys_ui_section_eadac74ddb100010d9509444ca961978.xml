@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="User" section_id="eadac74ddb100010d9509444ca961978" sys_domain="global" table="x_396036_my_sample_gitlab_spoke" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>user_id</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-03 14:34:22</sys_created_on>
+            <sys_id>badac74ddb100010d9509444ca9619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="User" display_value="User" name="x_396036_my_sample_gitlab_spoke" sys_domain="global" view="Default view">eadac74ddb100010d9509444ca961978</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-03 14:34:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-03 14:34:22</sys_created_on>
+            <sys_id>3edac74ddb100010d9509444ca9619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="User" display_value="User" name="x_396036_my_sample_gitlab_spoke" sys_domain="global" view="Default view">eadac74ddb100010d9509444ca961978</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-03 14:34:22</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>role</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-03 14:34:22</sys_created_on>
+            <sys_id>bedac74ddb100010d9509444ca9619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="User" display_value="User" name="x_396036_my_sample_gitlab_spoke" sys_domain="global" view="Default view">eadac74ddb100010d9509444ca961978</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-03 14:34:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>User</caption>
+            <header>false</header>
+            <name>x_396036_my_sample_gitlab_spoke</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-10-03 14:34:21</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eadac74ddb100010d9509444ca961978</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>User</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Gitlab Spoke" source="x_396036_my_sample">c9b6f8abdb633300d9509444ca961930</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Gitlab Spoke">c9b6f8abdb633300d9509444ca961930</sys_scope>
+            <sys_update_name>sys_ui_section_eadac74ddb100010d9509444ca961978</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-10-03 14:34:21</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

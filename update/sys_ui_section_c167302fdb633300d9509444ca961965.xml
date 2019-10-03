@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="c167302fdb633300d9509444ca961965" sys_domain="global" table="x_396036_my_sample_gitlab_spoke" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>name</element>
+            <element>u_string_1</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-25 16:31:50</sys_created_on>
-            <sys_id>e9091e62db800010d9509444ca961900</sys_id>
+            <sys_created_on>2019-10-03 14:34:22</sys_created_on>
+            <sys_id>72dac74ddb100010d9509444ca9619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_396036_my_sample_gitlab_spoke" sys_domain="global" view="Default view">c167302fdb633300d9509444ca961965</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-25 16:31:50</sys_updated_on>
+            <sys_updated_on>2019-10-03 14:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>user_id</element>
+            <element>name</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-25 16:31:50</sys_created_on>
-            <sys_id>61091e62db800010d9509444ca961901</sys_id>
+            <sys_created_on>2019-10-03 14:34:22</sys_created_on>
+            <sys_id>f2dac74ddb100010d9509444ca9619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_396036_my_sample_gitlab_spoke" sys_domain="global" view="Default view">c167302fdb633300d9509444ca961965</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-25 16:31:50</sys_updated_on>
+            <sys_updated_on>2019-10-03 14:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>.split</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-25 16:31:50</sys_created_on>
-            <sys_id>e1091e62db800010d9509444ca961901</sys_id>
+            <sys_created_on>2019-10-03 14:34:22</sys_created_on>
+            <sys_id>76dac74ddb100010d9509444ca9619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_396036_my_sample_gitlab_spoke" sys_domain="global" view="Default view">c167302fdb633300d9509444ca961965</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-25 16:31:50</sys_updated_on>
+            <sys_updated_on>2019-10-03 14:34:22</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>description</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-25 16:31:50</sys_created_on>
-            <sys_id>65091e62db800010d9509444ca961901</sys_id>
+            <sys_created_on>2019-10-03 14:34:22</sys_created_on>
+            <sys_id>f6dac74ddb100010d9509444ca9619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_396036_my_sample_gitlab_spoke" sys_domain="global" view="Default view">c167302fdb633300d9509444ca961965</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-25 16:31:50</sys_updated_on>
+            <sys_updated_on>2019-10-03 14:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>visibility</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-09-25 16:31:50</sys_created_on>
-            <sys_id>e5091e62db800010d9509444ca961901</sys_id>
+            <sys_created_on>2019-10-03 14:34:22</sys_created_on>
+            <sys_id>7adac74ddb100010d9509444ca9619bf</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_396036_my_sample_gitlab_spoke" sys_domain="global" view="Default view">c167302fdb633300d9509444ca961965</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-09-25 16:31:50</sys_updated_on>
+            <sys_updated_on>2019-10-03 14:34:22</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -84,9 +84,9 @@
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_396036_my_sample_gitlab_spoke</sys_name>
             <sys_overrides/>
-            <sys_package display_value="My Sample App" source="x_396036_my_sample">c9b6f8abdb633300d9509444ca961930</sys_package>
+            <sys_package display_value="Gitlab Spoke" source="x_396036_my_sample">c9b6f8abdb633300d9509444ca961930</sys_package>
             <sys_policy/>
-            <sys_scope display_value="My Sample App">c9b6f8abdb633300d9509444ca961930</sys_scope>
+            <sys_scope display_value="Gitlab Spoke">c9b6f8abdb633300d9509444ca961930</sys_scope>
             <sys_update_name>sys_ui_section_c167302fdb633300d9509444ca961965</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2019-09-03 15:27:48</sys_updated_on>

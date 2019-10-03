@@ -56,9 +56,9 @@
         <sys_id>498e7f19db33f300d9509444ca9619b8</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>username</sys_name>
-        <sys_package display_value="My Sample App" source="x_396036_my_sample">c9b6f8abdb633300d9509444ca961930</sys_package>
+        <sys_package display_value="Gitlab Spoke" source="x_396036_my_sample">c9b6f8abdb633300d9509444ca961930</sys_package>
         <sys_policy/>
-        <sys_scope display_value="My Sample App">c9b6f8abdb633300d9509444ca961930</sys_scope>
+        <sys_scope display_value="Gitlab Spoke">c9b6f8abdb633300d9509444ca961930</sys_scope>
         <sys_update_name>sys_dictionary_x_396036_my_sample_gitlab_user_username</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-09-09 16:28:56</sys_updated_on>
